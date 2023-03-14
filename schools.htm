@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mt. C Schools- Schools</title>
-    <link rel="stylesheet" href="schools.css">
+    <link rel="stylesheet" href="stylesheets/nav.css">
+    <link rel="stylesheet" href="stylesheets/footer.css">
+    <link rel="stylesheet" href="stylesheets/schools.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
@@ -18,31 +20,29 @@
 </style>
 
 <body>
-
-   
     <nav class="nav">
-        <div class="school-icon">
-            <img src="Media/Img/logo/school logo 2.jpg" alt="school-icon" style="height: auto; width: 70%; display: inline; padding-left: 50px; padding-top: 20px;">
-        </div>
+        <section class="nav-left">
+            <img class="school-logo" src="Media/Img/logo/school logo 2.jpg" alt="school-icon">
+        </section>
 
-        <div class="nav-mid-div">
-            <div><h1 style="display: inline;">Mt. C Schools</h1></div>
-            <div><p style="margin-top: 30px">Learning At It's Best</p></div>
-        </div>
+        <section class="nav-mid">
+            <div><h3 class="school-name">Mt. C Schools</h3></div>
+            <div><p class="school-motto">Learning At It's Best</p></div>
+        </section>
 
-        <div class="page-buttons">
+        <section class="nav-right">
             <ul class="nav-ul">
-                <li><h3><a class="schools" href="index.htm">Home</a> </h3></li>
-                <li><h3><a class="about-button" href="about.htm">About</a></h3></li>
-                <li><h3><a class="contact-button" href="contact.htm">Contact</a></h3></li>
-                <li><h3><a class="inquiry-button" href="FAQs.htm">FAQs </a></h3></li>
-            </ul>
-        </div>
+                <li><a class="schools-button" href="home.htm">Home</a></li>
+                <li><a class="about-button" href="about.htm">About</a></li>
+                <li><a class="contact-button" href="contact.htm">Contact</a></h3></li>
+                <li><a class="inquiry-button" href="FAQs.htm">FAQs </a></li>
+            </ul>                                    
+        </section>
     </nav>
               
        
 
-            <div style="display: flex; justify-content: space-evenly; text-align: center; margin-top: 100px;">
+            <section class="section">
                 <div class="img3-div">
                     <img src="media/Img/emptyclassroom environ.jpg" alt="emptyclassroom" style="border-radius: 20px; cursor: pointer;">
                     <p> <a href="" onclick="myFunction()"> School Of Medical Sciences</a></p>
@@ -72,9 +72,9 @@
                     <img src="media/Img/emptyclassroom environ.jpg" alt="emptyclassroom" style="border-radius: 20px;" ">
                     <p><a href=""> School Of Computing [SOC]</a></p>
                 </div>
-            </div>
+            <!-- </section> -->
 
-            <div style="display: flex; justify-content: space-evenly; text-align: center; margin-top: 100px;">
+            <!-- <section> -->
                 <div class="img3-div">
                     <img src="media/Img/emptyclassroom environ.jpg" alt="emptyclassroom" style="border-radius: 20px;">
                     <p><a href=""> School Of Life Sciences [SLS]</a></p>
@@ -94,7 +94,7 @@
                     <img src="media/Img/emptyclassroom environ.jpg" alt="emptyclassroom" style="border-radius: 20px;" ">
                     <p><a href=""> School Of Computing</a></p>
                 </div>
-            </div>
+            </section>
 
     
 </body>
@@ -102,7 +102,7 @@
 
 <footer class="foot">
         
-    <div class="row1">
+    <section class="row1">
         <ul class="foot-ul">
             <li><h4>Children Learning</h4></li>
             <li> <a href="">Learn Numeracy</a></li>
@@ -117,19 +117,19 @@
             <li> <a href="">Skill Acquisition</a></li>
 
          </ul>      
-      </div>
+      </section>
 
-      <div class="row2">
+      <section class="row2">
         <ul class="foot-ul">
             <li><h4>Classes</h4></li>
             <li> <a href=""> Grades 1-3</a></li>
             <li> <a href=""> Grades 4-5</a></li>
             <li> <a href=""> Grades 6-8</a></li>
          </ul>      
-      </div>
+      </section>
 
      <div class="row3">
-        <ul class="foot-ul">
+        <section class="foot-ul">
             <li> <h4> High School Classes</h4></li>
             <li> <a href=""> Learn Mathematics</a></li>
             <li> <a href=""> English Language Lessons</a></li>
@@ -140,10 +140,10 @@
             <li> <a href=""> Learn Technical Drawing</a></li>
             <li> <a href=""> Literature-In-English</a></li>
             <li> <a href=""> Arts and Crafts</a></li>
-        </ul>      
+        </section>      
     </div>
 
-    <div class="row4">
+    <section class="row4">
         <ul class="foot-ul">
             <li> <h4> IT Courses</h4></li>
             <li> <a href="">Web Development</a></li>
@@ -155,10 +155,10 @@
             <li> <a href=""> Digital Literacy</a></li>
             <li> <a href=""> Fullstack Development</a></li>
          </ul>      
-      </div>
+      </section>
 
       
-      <div class="row5">
+      <section class="row5">
         <ul class="foot-ul">
             <li><h4>Schools</h4></li>
             <li> <a href=""> School Of Medical Sciences</a></li>
@@ -170,9 +170,9 @@
             <li> <a href=""> School Of Management Technolgy [SMAT]</a></li>
             <li> <a href=""> School Of Computing</a></li>
          </ul>      
-      </div>
+      </section>
 
-      <div class="row7">
+      <section class="row7">
         <ul class="foot-ul">
             <li> <h4> School NEWS</h4></li>
             <li> <a href="">Scholarship Programmes</a></li>
@@ -181,7 +181,7 @@
             <li> <a href="">Apply For Student Aid</a></li>
             <li> <a href=""> Extracurricular Activities For The Week</a></li>
          </ul>      
-      </div>
+      </section>
 </footer>
 
 

@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mt. C Schools- About Us</title>
-    <link rel="stylesheet" href="about.css">
+    <title>Mt. C Schools- About</title>
+    <link rel="stylesheet" href="stylesheets/nav.css">
+    <link rel="stylesheet" href="stylesheets/footer.css">
+    <link rel="stylesheet" href="stylesheets/about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
 </head>
     
 <style>
@@ -19,37 +21,25 @@
    
 
 <body class="body">
-   
-
     <nav class="nav">
-        <div class="school-icon">
-            <img src="Media/Img/logo/school logo 2.jpg" alt="school-icon" style="height: auto; width: 70%; display: inline; padding-left: 50px; padding-top: 20px;">
-        </div>
+        <section class="nav-left">
+            <img class="school-logo" src="Media/Img/logo/school logo 2.jpg" alt="school-icon">
+        </section>
 
-        <div class="nav-mid-div">
-            <div><h1 style="display: inline;">Mt. C Schools</h1></div>
-            <div><p style="margin-top: 30px">Learning At It's Best</p></div>
-        </div>
+        <section class="nav-mid">
+            <div><h3 class="school-name">Mt. C Schools</h3></div>
+            <div><p class="school-motto">Learning At It's Best</p></div>
+        </section>
 
-        <div class="page-buttons">
+        <section class="nav-right">
             <ul class="nav-ul">
-                <li><h3><a class="about-button" href="index.htm">Home</a></h3></li>
-                <li><h3><a class="contact-button" href="contact.htm">Contact</a></h3></li>
-                <li><h3><a class="schools" href="schools.htm">Schools</a> </h3></li>
-                <li><h3><a class="inquiry-button" href="FAQs.htm">FAQs </a></h3></li>
-                <!-- <li>
-                    <label for="FAQs">FAQs</label>
-                <select id="contact reason" name="FAQs">
-                    <option value=""></option>
-                  <option value="sales">Sales</option>
-                  <option value="help">Help</option>
-                  <option value="billing">Billing</option>
-                </select>
-            </li> -->
+                <li><a class="about-button" href="home.htm">Home</a></li>
+                <li><a class="contact-button" href="contact.htm">Contact</a></h3></li>
+                <li><a class="schools-button" href="schools.htm">Schools</a></li>
+                <li><a class="inquiry-button" href="FAQs.htm">FAQs </a></li>
             </ul>                                    
-        </div>
+        </section>
     </nav>
-
 
 
     <main>
@@ -281,91 +271,101 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aspernatur rerum iusto doloribus mollitia dolorum aperiam iure accusantium, velit repellendus unde quo, quasi quas. Ut laudantium reprehenderit fugit consectetur rerum, ex accusamus dicta voluptate nam. Illo similique accusamus provident rerum, odio, ipsa harum id eum aspernatur asperiores assumenda repellat! Ullam est non fugit assumenda ratione.</p>
     </div>
 
+    <section>
+        <p>    <h2>Our teachers</h2>   </p>
+        <section>
+            <div>
+                <img src="media/img/" alt="">
+            </div>
+        </section>
+    </section>
+
+    <footer class="foot">
+            
+        <div class="row1">
+            <ul class="foot-ul">
+                <li><h4>Children Learning</h4></li>
+                <li> <a href="">Learn Numeracy</a></li>
+                <li> <a href="">Learning The Alphabets</a></li>
+                <li> <a href=""> Spelling Lessons</a></li>
+                <li> <a href=""> Phonics: Sound Right</a></li>
+
+                <li><h4> Learning ++</h4></li>
+                <li> <a href="">Music</a></li>
+                <li> <a href="">Crocheting</a></li>
+                <li> <a href="">Life Hacks</a></li>
+                <li> <a href="">Skill Acquisition</a></li>
+
+            </ul>      
+        </div>
+
+        <div class="row2">
+            <ul class="foot-ul">
+                <li><h4>Classes</h4></li>
+                <li> <a href=""> Grades 1-3</a></li>
+                <li> <a href=""> Grades 4-5</a></li>
+                <li> <a href=""> Grades 6-8</a></li>
+            </ul>      
+        </div>
+
+        <div class="row3">
+            <ul class="foot-ul">
+                <li> <h4> High School Classes</h4></li>
+                <li> <a href=""> Learn Mathematics</a></li>
+                <li> <a href=""> English Language Lessons</a></li>
+                <li> <a href=""> Biology</a></li>
+                <li> <a href=""> Physics</a></li>
+                <li> <a href=""> Advanced Mathematics</a></li>
+                <li> <a href=""> Commerce</a></li>
+                <li> <a href=""> Learn Technical Drawing</a></li>
+                <li> <a href=""> Literature-In-English</a></li>
+                <li> <a href=""> Arts and Crafts</a></li>
+            </ul>      
+        </div>
+
+        <div class="row4">
+            <ul class="foot-ul">
+                <li> <h4> IT Courses</h4></li>
+                <li> <a href="">Web Development</a></li>
+                <li> <a href=""> Graphics Design</a></li>
+                <li> <a href=""> Ethical Hacking</a></li>
+                <li> <a href=""> Data Analysis</a></li>
+                <li> <a href="">Software Development</a></li>
+                <li> <a href=""> UI/UX Design</a></li>
+                <li> <a href=""> Digital Literacy</a></li>
+                <li> <a href=""> Fullstack Development</a></li>
+            </ul>      
+        </div>
+
+        
+        <div class="row5">
+            <ul class="foot-ul">
+                <li><h4>Schools</h4></li>
+                <li> <a href=""> School Of Medical Sciences</a></li>
+                <li> <a href=""> School Of Engineering and Engineering Technology [SEET]</a></li>
+                <li> <a href=""> School Of Earth and Mineral Sciences [SEMS]</a></li>
+                <li> <a href=""> School Of Computing [SOC]</a></li>
+                <li> <a href=""> School Of Life Sciences [SLS]</a></li>
+                <li> <a href=""> School Of Environmental Technology [SET]</a></li>
+                <li> <a href=""> School Of Management Technolgy [SMAT]</a></li>
+                <li> <a href=""> School Of Computing</a></li>
+            </ul>      
+        </div>
+
+        <div class="row7">
+            <ul class="foot-ul">
+                <li> <h4> School NEWS</h4></li>
+                <li> <a href="">Scholarship Programmes</a></li>
+                <li> <a href="">Newsletter</a></li>
+                <li> <a href="">22/23 Admission List</a></li>
+                <li> <a href="">Apply For Student Aid</a></li>
+                <li> <a href=""> Extracurricular Activities For The Week</a></li>
+            </ul>      
+        </div>
+    </footer>
 </body>
 
 
-<footer class="foot">
-        
-    <div class="row1">
-        <ul class="foot-ul">
-            <li><h4>Children Learning</h4></li>
-            <li> <a href="">Learn Numeracy</a></li>
-            <li> <a href="">Learning The Alphabets</a></li>
-            <li> <a href=""> Spelling Lessons</a></li>
-            <li> <a href=""> Phonics: Sound Right</a></li>
 
-            <li><h4> Learning ++</h4></li>
-            <li> <a href="">Music</a></li>
-            <li> <a href="">Crocheting</a></li>
-            <li> <a href="">Life Hacks</a></li>
-            <li> <a href="">Skill Acquisition</a></li>
-
-         </ul>      
-      </div>
-
-      <div class="row2">
-        <ul class="foot-ul">
-            <li><h4>Classes</h4></li>
-            <li> <a href=""> Grades 1-3</a></li>
-            <li> <a href=""> Grades 4-5</a></li>
-            <li> <a href=""> Grades 6-8</a></li>
-         </ul>      
-      </div>
-
-     <div class="row3">
-        <ul class="foot-ul">
-            <li> <h4> High School Classes</h4></li>
-            <li> <a href=""> Learn Mathematics</a></li>
-            <li> <a href=""> English Language Lessons</a></li>
-            <li> <a href=""> Biology</a></li>
-            <li> <a href=""> Physics</a></li>
-            <li> <a href=""> Advanced Mathematics</a></li>
-            <li> <a href=""> Commerce</a></li>
-            <li> <a href=""> Learn Technical Drawing</a></li>
-            <li> <a href=""> Literature-In-English</a></li>
-            <li> <a href=""> Arts and Crafts</a></li>
-        </ul>      
-    </div>
-
-    <div class="row4">
-        <ul class="foot-ul">
-            <li> <h4> IT Courses</h4></li>
-            <li> <a href="">Web Development</a></li>
-            <li> <a href=""> Graphics Design</a></li>
-            <li> <a href=""> Ethical Hacking</a></li>
-            <li> <a href=""> Data Analysis</a></li>
-            <li> <a href="">Software Development</a></li>
-            <li> <a href=""> UI/UX Design</a></li>
-            <li> <a href=""> Digital Literacy</a></li>
-            <li> <a href=""> Fullstack Development</a></li>
-         </ul>      
-      </div>
-
-      
-      <div class="row5">
-        <ul class="foot-ul">
-            <li><h4>Schools</h4></li>
-            <li> <a href=""> School Of Medical Sciences</a></li>
-            <li> <a href=""> School Of Engineering and Engineering Technology [SEET]</a></li>
-            <li> <a href=""> School Of Earth and Mineral Sciences [SEMS]</a></li>
-            <li> <a href=""> School Of Computing [SOC]</a></li>
-            <li> <a href=""> School Of Life Sciences [SLS]</a></li>
-            <li> <a href=""> School Of Environmental Technology [SET]</a></li>
-            <li> <a href=""> School Of Management Technolgy [SMAT]</a></li>
-            <li> <a href=""> School Of Computing</a></li>
-         </ul>      
-      </div>
-
-      <div class="row7">
-        <ul class="foot-ul">
-            <li> <h4> School NEWS</h4></li>
-            <li> <a href="">Scholarship Programmes</a></li>
-            <li> <a href="">Newsletter</a></li>
-            <li> <a href="">22/23 Admission List</a></li>
-            <li> <a href="">Apply For Student Aid</a></li>
-            <li> <a href=""> Extracurricular Activities For The Week</a></li>
-         </ul>      
-      </div>
-</footer>
 
 </html>

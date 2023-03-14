@@ -1,0 +1,97 @@
+.body{
+    font-weight: lighter;
+    line-height: 35px;
+}
+
+main{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Our-Vision,
+.Our-Mission,
+.Our-Slogan{
+    margin: 20px;
+}
+
+
+
+/* VISION STYLE */
+.Our-Vision{
+    height: 700px;    
+    width: 33%;
+    /* border: 1px solid black; */
+}
+.vision-header{
+    text-align: center;
+}
+.vision-statement{
+    text-align: left;
+}
+
+
+/* Mission Style */
+
+.Our-Mission{
+    height: 700px;
+    width: 33%;
+    margin-top: 150px;
+}
+.mission-statement{
+    text-align: center;
+}
+.mission-header{
+    text-align: center;
+}
+
+
+/* Slogan Style */
+
+.Our-Slogan{
+    height: 700px;
+    width: 33%;
+    /* border: 1px solid black; */
+}
+
+.Slogan-statement{
+    text-align: right;
+}
+.Slogan-header{
+    text-align: center;
+}
+
+
+
+/* FOOTER STYLE */
+.foot{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background-color: rgba(230, 225, 225, 0.685);
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-top: 150px;
+    line-height: 40px;
+    font-size: small;
+    color: rgba(66, 66, 66, 0.795);
+}
+
+
+.foot-ul{
+    list-style-type: none;
+    text-align: left;
+}
+
+a{
+    text-decoration-line: none;
+    color: rgba(66, 66, 66, 0.795);
+}
+
+a:hover{
+    text-decoration: underline;
+    transition: 0.15s;
+}
